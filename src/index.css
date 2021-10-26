@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@400;500;800&family=Mulish:wght@400;500;700;800&family=Yeseva+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Yeseva One', cursive;
+  text-decoration: none !important;
+}
+
+    /* font-family: 'Italianno', cursive; */
+    /* font-family: 'Mulish', sans-serif; */
+   /*   */
+
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  background: #fff !important;
+}
+.navbar-brand {
+  font-size: 2.6rem !important;
+  color: #565387 !important;
+}
+.navbar a {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  margin: 0 0.3rem;
+}
+
+.menu_active {
+  font-weight: bolder;
+  border-bottom: 0.1rem solid #565387;
+}
+
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+/* #main landing section  */
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 5rem;
+}
+
+#header h1 {
+  margin: 0 0 0.9rem 0;
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: black;
+  font-family: "Lobster", cursive;
+}
+
+.commonHeading{
+    font-family: 'Handlee', cursive !important;
+}
+
+#header .brand-name {
+  color: #3498db;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 2rem;
+}
+
+#header .btn-get-started {
+  font-weight: bolder;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  transition: 0.5s;
+  color: #3498db;
+  border: 0.2rem solid #3498db;
+}
+
+#header .btn-get-started:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(-1rem);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(-1rem);
+  }
+}
+
+.serviceDiv{
+    background-color: #888;
+    border-radius: .5rem;
+}
+
+.Cardtitle {
+    font-size: 1.5rem;
+    font-weight: bold !important;
+}
+
+.service {
+  color: #fff;
+  font-family: "Italianno", cursive;
+  font-size: 5rem !important;
+}
+
+.contact-Section {
+    border-radius: .5rem;
+    background-color: #222;
+}
+
+
+.cHeading {
+    font-family: "Italianno", cursive;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.contact_div form {
+  padding: .5rem;
+  margin: 5rem 0;
+  box-shadow: 0.1rem 0.1rem 0.1rem #777, -0.1rem -0.1rem 0.1rem #777;
+  background-color: #4c4c4c;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+label{
+    font-size: 2.5rem;
+}
+
+input,textarea {
+    font-size: 1.6rem !important;
+    border: none;
+    border-radius: .6rem;
+}
+
+textarea{
+  resize: none;
+  margin-bottom: 1.5rem !important;
+}
+
+.submitBtn{
+    font-size: 2rem !important;
+    border-radius: .5rem !important;
+    margin: .5rem 0;
+    margin-bottom: 1rem;
+    
+}
+
+
+.copyright-text-style {
+  color: rgb(54, 15, 230);
+  font-size: 1.8rem;
+  font-weight: bolder !important;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 48.5%;
+  }
+  
+
+  .menu_active {
+    font-weight: bolder;
+    border-bottom: none;
+  }
+}
